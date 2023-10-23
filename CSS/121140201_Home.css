@@ -1,0 +1,151 @@
+header{
+    width: auto;
+    height: 200px;
+}
+
+header .header .navigasi{
+    width: auto;
+    height: 130px;
+    margin-bottom:5px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between; /*untuk membuat jarak*/
+}
+header .foto img{
+    width: 110px;
+    height: 70px;
+    margin: 10px;
+
+    position: relative;
+    bottom: -30px;
+    border-radius: 50px;
+}
+header .foto figcaption{
+    color:white;
+    position: relative;
+    bottom: -20px;
+    left: 25px;
+
+    transition: all 3s ease-in;
+    opacity: 0.4;
+}
+header .foto figcaption:hover{
+    font-size: 20px;
+    opacity: 1;
+    /* color:  */
+    transition: all 0.3s ease-out;
+}
+
+header .navigasi ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header .navigasi li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header .navigasi li a:hover{
+    color: brown;
+    transition: all .3s ease-in-out ;
+}
+
+header h2{
+    margin-left: 20px;
+}
+
+main .Main{
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    font-family: 'Courier New';
+}
+
+main .Main .judul{
+    text-transform: capitalize;
+}
+
+main .isi1 img{
+    width: 300px;
+
+    margin: 50px 0;
+    border-top: 2px solid rgb(49, 145, 49);
+    border-bottom: 3px solid rgb(206, 21, 21);
+}
+
+main .isi1 figcaption {
+    margin: -50px 0 40px 0;
+}
+
+main .Main .isi1{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#identifi{
+    font-size: 20px;
+    text-align: justify;
+}
+
+main .isi2{
+    width: 800px;
+    height: 200px;
+    
+    text-transform: capitalize;
+
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    box-shadow: 0 0 30px 2px rgba(52, 152, 219, 0.7);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .isi2 .blok1{
+    width: 300px;
+    height: 160px;
+
+    margin: 20px 0 20px 50px;
+}
+
+main .isi2 .blok1 h2{
+    background-color: white;
+    padding: 3px;
+}
+
+main .isi2 .blok2{
+    width: 350px;
+    height: 160px;
+
+    margin: 20px 50px;
+}
+
+main .isi2 .blok2 h2{
+    background-color: white;
+    padding: 3px;
+}
+
+footer{
+    width: auto;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    padding: 15px;
+    font-size: 16px;
+}
+
